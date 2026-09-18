@@ -1,0 +1,44 @@
+{
+	"/(app)": [
+		"src/routes/+layout.server.ts"
+	],
+	"/": [
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/leaderboard": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(auth)/login": [
+		"src/routes/(auth)/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/onboarding": [
+		"src/routes/+layout.server.ts"
+	],
+	"/plan": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/profile": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/profile/billing": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/profile/settings": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/profile/settings/verify-email": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/session": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(app)/session/[id]": [
+		"src/routes/+layout.server.ts"
+	],
+	"/(auth)/verify": [
+		"src/routes/(auth)/verify/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}

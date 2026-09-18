@@ -1,0 +1,1 @@
+var e=`http://localhost:8080`,t=`phc_nCQG7VhbdFfR4APTdtuoEj2LFxxhrogtEiGuEJzXRBLM`;export{t as n,e as t};

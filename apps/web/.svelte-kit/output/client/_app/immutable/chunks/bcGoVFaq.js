@@ -1,0 +1,1 @@
+import"./B9cUK-4N.js";import{l as e,s as t}from"./Cq_riEUB.js";var n={get data(){return e.data},get error(){return e.error},get form(){return e.form},get params(){return e.params},get route(){return e.route},get state(){return e.state},get status(){return e.status},get url(){return e.url}};t.updated.check;var r=n;export{r as t};

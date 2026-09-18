@@ -1,0 +1,6 @@
+alter table grammar_corrections add column context_snippet text;
+alter table grammar_corrections add column severity smallint not null default 2 check (severity between 1 and 3);
+alter table vocabulary_suggestions add column severity smallint not null default 2 check (severity between 1 and 3);
+
+create index idx_grammar_corrections_severity on grammar_corrections(session_id, severity desc);
+create index idx_vocab_suggestions_severity on vocabulary_suggestions(session_id, severity desc);
